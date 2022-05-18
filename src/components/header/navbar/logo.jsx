@@ -6,9 +6,10 @@ const Logo = () => {
             marginEnd={4}
         >
             <Image
-                src="/images/yo.jpeg"
-                boxSize='50px'
+                src="/images/yo.jpg"
+                boxSize='60px'
                 borderRadius='full'
+                fit='cover'
             />
         </Box>
     )
