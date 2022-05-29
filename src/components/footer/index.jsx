@@ -34,7 +34,7 @@ const Footer = () => {
 
                     <Box>
                         <Text fontWeight='bold'>Otros</Text>
-                        <ItemContacto icon={MdEmail}>xmauro07x@gmail.com</ItemContacto>
+                        <ItemContacto isLink href='mailto:mauroerben100@hotmail.com' icon={MdEmail}>Email</ItemContacto>
                         <ItemContacto icon={FaPhoneAlt}>+54 261-672-1833</ItemContacto>
                         <ItemContacto icon={MdLocationPin}>Mendoza, Argentina</ItemContacto>
                     </Box>
