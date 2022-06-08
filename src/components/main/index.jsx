@@ -14,8 +14,8 @@ const Main = () => {
             fontSize={['sm', 'md', 'lg', 'xl']}
             spacing={6}
         >
-            <Heading><chakra.span color='blue.300'>¡Hola!</chakra.span> Soy Mauro Erben, desarrollador frontend junior con experiencia en React y en busca de nuevos conocimientos</Heading>
-            <Text>Tengo 22 años, soy de Mendoza, Argentina. Me apasiona el desarrollo web, día a día voy mejorando mis habilidades y adquiriendo nuevas para ir sumando experiencia como desarrollador.</Text>
+            <Heading><chakra.span color='blue.300'>¡Hola!</chakra.span> Soy Mauro Erben, desarrollador frontend junior</Heading>
+            <Text>Tengo 22 años, soy de Mendoza, Argentina. Me apasiona el desarrollo web, día a día voy mejorando mis habilidades y adquiriendo nuevas para ir sumando experiencia como desarrollador y poder encontrar mi primer empleo en el mundo IT.</Text>
             <Tecnologias />
             <Proyectos />
             <Footer />

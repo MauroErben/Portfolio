@@ -8,8 +8,9 @@ import {
     Link
 } from "@chakra-ui/react"
 import AnimatedBox from "../../box/animatedBox"
+import { FaGithub } from 'react-icons/fa'
 
-const ItemProyecto = ({ imageUrl, nombre, fecha, team, descripcion, href }) => {
+const ItemProyecto = ({ imageUrl, nombre, fecha, team, descripcion, href, repoRef }) => {
     return (
         <AnimatedBox>
             <Box
@@ -26,6 +27,9 @@ const ItemProyecto = ({ imageUrl, nombre, fecha, team, descripcion, href }) => {
                     <Text fontSize={['sm', 'md', 'lg']}>{descripcion}</Text>
                     <Link href={href} isExternal>
                         <Button colorScheme='blue' variant='outline'>¡Quiero verlo!</Button>
+                    </Link>
+                    <Link href={repoRef} isExternal>
+                        <Button size='sm' leftIcon={<FaGithub />} colorScheme='blue' variant='outline'>Repositorio</Button>
                     </Link>
                 </VStack>
             </Box>
