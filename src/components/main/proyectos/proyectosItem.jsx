@@ -26,10 +26,10 @@ const ItemProyecto = ({ imageUrl, nombre, fecha, team, descripcion, href, repoRe
                     <Text fontSize='sm'>{team}</Text>
                     <Text fontSize={['sm', 'md', 'lg']}>{descripcion}</Text>
                     <Link href={href} isExternal>
-                        <Button colorScheme='blue' variant='outline'>¡Quiero verlo!</Button>
+                        <Button colorScheme='blue' variant='outline'>Demo</Button>
                     </Link>
                     <Link href={repoRef} isExternal>
-                        <Button size='sm' leftIcon={<FaGithub />} colorScheme='blue' variant='outline'>Repositorio</Button>
+                        <Button leftIcon={<FaGithub />} colorScheme='blue' variant='outline'>Repositorio</Button>
                     </Link>
                 </VStack>
             </Box>
