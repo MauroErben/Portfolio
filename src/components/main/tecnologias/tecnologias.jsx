@@ -11,7 +11,7 @@ import {
     SiMongodb
 } from 'react-icons/si'
 
-import AnimatedBox from '../../Box/AnimatedBox'
+import AnimatedBox from '../../box/animatedBox'
 
 const Tecnologias = () => {
     return (

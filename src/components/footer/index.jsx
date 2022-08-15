@@ -1,5 +1,5 @@
 import { Stack, Text } from '@chakra-ui/react'
-import AnimatedBox from '../Box/AnimatedBox'
+import AnimatedBox from '../box/animatedBox'
 import ItemContacto from './contacto/contacto'
 import {
     FaLinkedin,
