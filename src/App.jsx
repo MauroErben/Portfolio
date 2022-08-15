@@ -1,6 +1,6 @@
 import { Container } from '@chakra-ui/react'
-import Header from './components/header/Index'
-import Main from './components/main/Index'
+import Header from './components/header'
+import Main from './components/main'
 import './App.css'
 
 function App() {

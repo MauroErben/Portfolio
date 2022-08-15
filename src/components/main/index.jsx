@@ -1,5 +1,5 @@
 import { VStack, Heading, Text, chakra } from "@chakra-ui/react"
-import Footer from "../footer/Index"
+import Footer from "../footer"
 import Proyectos from "./Proyectos/Proyectos"
 import Tecnologias from "./Tecnologias/Tecnologias"
 
