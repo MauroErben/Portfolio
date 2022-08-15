@@ -2,38 +2,17 @@ import {
     Box,
     Image,
     Heading,
-    Text,
-    Button,
-    VStack,
     Link
 } from "@chakra-ui/react"
-import AnimatedBox from "../../box/animatedBox"
-import { FaGithub } from 'react-icons/fa'
 
-const ItemProyecto = ({ imageUrl, nombre, fecha, team, descripcion, href, repoRef }) => {
+const ItemProyecto = (props) => {
     return (
-        <AnimatedBox>
-            <Box
-                boxShadow='2xl'
-            >
-                <Image src={imageUrl} />
-                <VStack
-                    spacing={4}
-                    padding={[2, 4, 6, 8]}
-                >
-                    <Heading fontSize='xl'>{nombre}</Heading>
-                    <Text fontSize='sm'>{fecha}</Text>
-                    <Text fontSize='sm'>{team}</Text>
-                    <Text fontSize={['sm', 'md', 'lg']}>{descripcion}</Text>
-                    <Link href={href} isExternal>
-                        <Button colorScheme='blue' variant='outline'>Demo</Button>
-                    </Link>
-                    <Link href={repoRef} isExternal>
-                        <Button leftIcon={<FaGithub />} colorScheme='blue' variant='outline'>Repositorio</Button>
-                    </Link>
-                </VStack>
+        <Link href={props.href} target="_blank">
+            <Box maxW='250px'>
+                <Image boxSize='full' src={props.imageUrl} alt='Project' />
+                <Heading fontWeight='bold' mt={2} size='sm'>{props.nombre}</Heading>
             </Box>
-        </AnimatedBox>
+        </Link>
     )
 }
 export default ItemProyecto

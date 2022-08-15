@@ -1,15 +1,16 @@
 import { Stack } from "@chakra-ui/react"
-import Logo from "./logo"
-import MenuItems from "./menuItems"
+import Logo from "./Logo"
+import MenuItems from "./MenuItems"
 
 const NavBar = () => {
     return (
         <Stack
-            p={2}
+            //p={2}
             justify={['center', 'stretch']}
             direction={['column', 'column', 'row']}
             align='center'
-            boxShadow='sm'
+            borderBottom='1px'
+            borderColor='#0049ae'
         >
             <Logo />
             <MenuItems />

@@ -1,7 +1,7 @@
 import { VStack, Heading, Text, chakra } from "@chakra-ui/react"
-import Footer from "../footer"
-import Proyectos from "./proyectos/proyectos"
-import Tecnologias from "./tecnologias/tecnologias"
+import Footer from "../footer/Index"
+import Proyectos from "./Proyectos/Proyectos"
+import Tecnologias from "./Tecnologias/Tecnologias"
 
 const Main = () => {
     return (
@@ -12,9 +12,9 @@ const Main = () => {
             marginTop={[2, 2, 4, 4]}
             textAlign='center'
             fontSize={['sm', 'md', 'lg', 'xl']}
-            spacing={6}
+            spacing={12}
         >
-            <Heading><chakra.span color='blue.300'>¡Hola!</chakra.span> Soy Mauro Erben, desarrollador frontend junior</Heading>
+            <Heading size='2xl'><chakra.span color='#0049ae'>¡Hola!</chakra.span>👋 Soy Mauro Erben, desarrollador frontend junior</Heading>
             <Text>Tengo 22 años, soy de Mendoza, Argentina. Me apasiona el desarrollo web, día a día voy mejorando mis habilidades y adquiriendo nuevas para ir sumando experiencia como desarrollador y poder encontrar mi primer empleo en el mundo IT.</Text>
             <Tecnologias />
             <Proyectos />

@@ -2,13 +2,11 @@ import { Box, Image } from "@chakra-ui/react"
 
 const Logo = () => {
     return (
-        <Box
-            marginEnd={4}
-        >
+        <Box>
             <Image
-                src="/images/yo.jpg"
-                boxSize='60px'
-                borderRadius='full'
+                display={['none', 'none', 'block']}
+                src="/images/Logo.png"
+                boxSize='100px'
                 fit='cover'
             />
         </Box>

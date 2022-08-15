@@ -1,5 +1,5 @@
 import { Icon, Text } from "@chakra-ui/react"
-import TechnologyBox from "../../box/technologyBox"
+import TechnologyBox from "../../Box/TechnologyBox"
 
 const Item = ({ icon, color, name }) => {
     return (

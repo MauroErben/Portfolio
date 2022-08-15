@@ -1,21 +1,15 @@
-import { HStack, Icon, Link, Text } from '@chakra-ui/react'
-import AnimatedBox from "../../box/animatedBox"
+import { HStack, Icon, Link } from '@chakra-ui/react'
 
-const ItemContacto = ({ icon, children, isLink = false, href = '/' }) => {
+const ItemContacto = ({ icon, children, href = '/' }) => {
     return (
-        <AnimatedBox>
-            <HStack
-                justify='start'
-                align='center'
-                padding={2}
-                spacing={1}
-                fontSize='md'
-            >
-                <Icon fontSize={20} as={icon} />
-                {isLink ? <Link href={href} isExternal>{children}</Link>
-                    : <Text>{children}</Text>}
-            </HStack>
-        </AnimatedBox>
+        <HStack
+            align='center'
+            spacing={1}
+            fontSize={['sm', 'lg']}
+        >
+            <Icon fontSize={20} as={icon} />
+            <Link href={href} isExternal>{children}</Link>
+        </HStack>
     )
 }
 export default ItemContacto
