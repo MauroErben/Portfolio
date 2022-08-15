@@ -1,5 +1,5 @@
 import { Box, IconButton, HStack, Stack, useColorMode } from "@chakra-ui/react"
-import MenuLink from "./MenuLink"
+import MenuLink from "./menuLink"
 import { MdDarkMode, MdLightMode } from 'react-icons/md'
 
 const MenuItems = () => {

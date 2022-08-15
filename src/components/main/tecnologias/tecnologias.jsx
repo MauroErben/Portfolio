@@ -1,5 +1,5 @@
 import { Box, Text, SimpleGrid } from '@chakra-ui/react'
-import Item from './Items'
+import Item from './items'
 import {
     SiReact,
     SiRedux,

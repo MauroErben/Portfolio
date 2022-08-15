@@ -1,7 +1,7 @@
 import { VStack, Heading, Text, chakra } from "@chakra-ui/react"
 import Footer from "../footer"
-import Proyectos from "./Proyectos/Proyectos"
-import Tecnologias from "./Tecnologias/Tecnologias"
+import Proyectos from "./proyectos/proyectos"
+import Tecnologias from "./tecnologias/tecnologias"
 
 const Main = () => {
     return (

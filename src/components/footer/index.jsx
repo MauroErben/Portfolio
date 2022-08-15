@@ -1,6 +1,6 @@
 import { Stack, Text } from '@chakra-ui/react'
 import AnimatedBox from '../Box/AnimatedBox'
-import ItemContacto from './Contacto/Contacto'
+import ItemContacto from './contacto/contacto'
 import {
     FaLinkedin,
     FaGithub,

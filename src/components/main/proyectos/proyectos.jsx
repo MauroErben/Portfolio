@@ -1,6 +1,6 @@
 import { SimpleGrid, Text } from "@chakra-ui/react"
 import AnimatedBox from "../../Box/AnimatedBox"
-import ItemProyecto from "./ProyectosItem"
+import ItemProyecto from "./proyectosItem"
 
 const Proyectos = () => {
   return (

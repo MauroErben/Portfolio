@@ -1,6 +1,6 @@
 import { Stack } from "@chakra-ui/react"
-import Logo from "./Logo"
-import MenuItems from "./MenuItems"
+import Logo from "./logo"
+import MenuItems from "./menuItems"
 
 const NavBar = () => {
     return (
